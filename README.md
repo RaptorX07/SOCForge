@@ -1,27 +1,24 @@
-# SOC Automation Lab
+# SOCForge- SOC Automation Lab
 
-**[Uruc Tarim](https://github.com/uruc)**
-
-**Acknowledgment:** This project benefited greatly from the insights and tutorials provided by the YouTube channel [DFIR](https://www.youtube.com/@mydfir). Their comprehensive videos were invaluable in understanding and implementing the various components of the SOC Automation Lab.
 
 ## 1. Introduction
 
 ### 1.1 Overview
-The SOC Automation Project aims to create an automated Security Operations Center (SOC) workflow that streamlines event monitoring, alerting, and incident response. By leveraging powerful open-source tools such as Wazuh, Shuffle, and TheHive, this project enhances the efficiency and effectiveness of SOC operations. The project involves setting up a Windows 10 client with Sysmon for detailed event generation, Wazuh for comprehensive event management and alerting, Shuffle for workflow automation, and TheHive for case management and coordinated response actions.
+This project focuses on building an automated Security Operations Center (SOC) lab designed to simplify monitoring, detection, and incident handling. It integrates open-source platforms like Wazuh, Shuffle, and TheHive to improve the overall workflow of a SOC environment. As part of the setup, a Windows 10 machine is configured with Sysmon to generate detailed system events, while Wazuh handles event collection and alerting. Shuffle is introduced to automate response workflows, and TheHive serves as the central platform for managing and investigating security incidents.
 
 ![SOC Automation Diagram](https://github.com/uruc/SOC-Automation-Lab/blob/main/SOC_Automation_Diagram.png)
 
 ### 1.2 Purpose and Goals
-- **Automate Event Collection and Analysis:** Ensure security events are collected and analyzed in real-time with minimal manual intervention, enabling proactive threat detection and response.
-- **Streamline Alerting Process:** Automate the process of generating and forwarding alerts to relevant systems and personnel, reducing response times and minimizing the risk of overlooking critical incidents.
-- **Enhance Incident Response Capabilities:** Automate responsive actions to security incidents, improving reaction time, consistency, and effectiveness in mitigating threats.
-- **Improve SOC Efficiency:** Reduce the workload on SOC analysts by automating routine tasks, allowing them to focus on high-priority issues and strategic initiatives.
+- **Automated Event Monitoring and Analysis: Continuously capture and analyze security events in near real-time with minimal human input, enabling faster identification of potential threats.
+- **Efficient Alerting Mechanism: Automate the generation and distribution of alerts to appropriate systems or analysts, reducing delays and lowering the chances of missing critical activity.
+- **Stronger Incident Response: Implement automated actions for handling incidents, ensuring quicker reaction, standardized responses, and more effective mitigation of risks.
+- **Boost Analyst Productivity: Minimize repetitive tasks through automation, freeing SOC analysts to focus on complex investigations and long-term security improvements.
 
 ## 2. Prerequisites
 
 ### 2.1 Hardware Requirements
 - A host machine capable of running multiple virtual machines simultaneously.
-- Sufficient CPU, RAM, and disk space to support the VMs and their expected workloads.
+- Adequate CPU power, memory, and disk storage to handle the virtualized environment and workloads smoothly.
 
 ### 2.2 Software Requirements
 - **VMware Workstation/Fusion:** Industry-standard virtualization platform for creating and managing virtual machines.
@@ -766,22 +763,20 @@ Verify that the email is received with the expected alert details.
 
 ## 6. Conclusion
 
-We have successfully set up and configured the SOC Automation Lab, integrating Wazuh, TheHive, and Shuffle for automated event monitoring, alerting, and incident response. This foundation provides a solid starting point for further customization and expansion of automation workflows to meet our specific SOC requirements.
-The key steps and achievements of this lab include:
+This project demonstrated the complete setup and configuration of an automated Security Operations Center (SOC) workflow using open-source tools. By integrating Wazuh, TheHive, and Shuffle, we built a streamlined environment capable of event monitoring, alerting, and automated incident response.
+Key milestones achieved during the lab include:
 
-1. Installing and configuring a Windows 10 client with Sysmon for detailed event generation.
-2. Setting up Wazuh as the central event management and alerting platform.
-3. Installing and configuring TheHive for case management and coordinated response actions.
-4. Generating Mimikatz telemetry and creating custom alerts in Wazuh.
+1. Deploying and configuring a Windows 10 client with Sysmon for detailed event logging.
+2. Setting up Wazuh as the primary event collection and alerting system
+3. Installing and configuring TheHive for case management and collaborative response handling.
+4. Generating security telemetry with Mimikatz and designing custom detection rules in Wazuh.
 5. Integrating Shuffle as the SOAR platform for workflow automation.
-6. Building an automated workflow to extract file hashes, check reputation scores with VirusTotal, create alerts in TheHive, and notify SOC analysts via email.
+6. Developing an automated process that validates file hashes with VirusTotal, creates alerts in TheHive, and escalates incidents to SOC analysts via email.
 
-With this lab, we have gained hands-on experience in implementing an automated SOC workflow using powerful open-source tools. We can now leverage this knowledge to enhance your organization's security operations, improve incident response times, and streamline SOC processes.
+Through this implementation, we gained practical experience in building a functional SOC lab environment with automation at its core. The setup not only enhances efficiency but also reduces manual workload, enabling analysts to focus on high-priority threats.
 
-Remember to continuously refine and adapt your automation workflows based on evolving threats, new tools, and changing business requirements. Regularly review and update your SOC playbooks, integrate additional threat intelligence sources, and explore advanced features of the tools used in this lab.
+Going forward, workflows can be extended and fine-tuned to align with evolving threats and organizational requirements. Regular updates to detection rules, playbooks, and integrations will ensure the SOC remains effective and adaptive.
 
-By embracing automation and leveraging the capabilities of Wazuh, TheHive, and Shuffle, you can build a more efficient, effective, and resilient SOC that proactively detects and responds to security incidents.
+By combining automation with powerful monitoring and response platforms, this project highlights how modern SOCs can become more proactive, resilient, and scalable in defending against cyber threats.
 
-## 7. References
-- https://www.mydfir.com/
-- https://www.youtube.com/watch?v=Lb_ukgtYK_U
+

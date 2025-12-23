@@ -1,3 +1,6 @@
+<img width="1080" height="1080" alt="SOCForge image" src="https://github.com/user-attachments/assets/e27a212b-6717-443c-9192-330e0e2cb967" />
+
+
 # SOCForge- SOC Automation Lab
 
 

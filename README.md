@@ -1,13 +1,11 @@
-# SOCForge- SOC Automation Lab
+# SOCForge - Automated SOC Simulation Environment
 <img width="700" height="700" alt="SOCForge image" src="https://github.com/user-attachments/assets/e27a212b-6717-443c-9192-330e0e2cb967" />
-
 ## 1. Introduction
 
 ### 1.1 Overview
 This project focuses on building an automated Security Operations Center (SOC) lab designed to simplify monitoring, detection, and incident handling. It integrates open-source platforms like Wazuh, Shuffle, and TheHive to improve the overall workflow of a SOC environment. As part of the setup, a Windows 10 machine is configured with Sysmon to generate detailed system events, while Wazuh handles event collection and alerting. Shuffle is introduced to automate response workflows, and TheHive serves as the central platform for managing and investigating security incidents.
 
 ![SOC Automation Diagram](https://github.com/uruc/SOC-Automation-Lab/blob/main/SOC_Automation_Diagram.png)
-
 ### 1.2 Purpose and Goals
 - **Automated Event Monitoring and Analysis: Continuously capture and analyze security events in near real-time with minimal human input, enabling faster identification of potential threats.
 - **Efficient Alerting Mechanism: Automate the generation and distribution of alerts to appropriate systems or analysts, reducing delays and lowering the chances of missing critical activity.

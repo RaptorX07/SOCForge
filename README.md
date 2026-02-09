@@ -1,5 +1,4 @@
 # SOCForge - Automated SOC Simulation Environment
-<img width="700" height="700" alt="SOCForge image" src="https://github.com/user-attachments/assets/e27a212b-6717-443c-9192-330e0e2cb967" />
 
 ## 1. Introduction
 
